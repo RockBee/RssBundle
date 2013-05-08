@@ -1,7 +1,7 @@
 {
     "name": "rockbee/rss-bundle",
     "type": "symfony-bundle",
-    "description": "Enables integration of the RSS-PHP library into symfony2 project.",
+    "description": "Enables integration of the RSS-PHP library into symfony2 projects.",
     "keywords": ["rss", "feed"],
     "version": "master",
     "authors": [
