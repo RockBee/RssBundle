@@ -1,6 +1,6 @@
 <?php
 
-namespace Iga\RssBundle\Tests\Controller;
+namespace Rockbee\RssBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

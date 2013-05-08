@@ -1,6 +1,6 @@
 <?php
 
-namespace Iga\RssBundle\DependencyInjection;
+namespace Rockbee\RssBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -18,11 +18,11 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('iga_rss');
+        $rootNode = $treeBuilder->root('rb_rss');
 
         $rootNode
             ->children()
-                ->scalarNode('file')->defaultValue('%kernel.root_dir%/../vendor/rssphp/rss.php')->end()
+                ->scalarNode('file')->defaultValue('%kernel.root_dir%/../vendor/rockbee/rssbundle/rssphp/rss.php')->end()
             ->end()
         ;
 
