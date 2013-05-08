@@ -3,6 +3,8 @@
     "type": "symfony-bundle",
     "description": "Enables integration of the RSS-PHP library into symfony2 projects.",
     "keywords": ["rss", "feed"],
+    "homepage": "http://www.gorockbee.com",
+    "license": "MIT",
     "version": "master",
     "authors": [
         {
