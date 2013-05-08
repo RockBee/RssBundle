@@ -22,7 +22,7 @@ class Configuration implements ConfigurationInterface
 
         $rootNode
             ->children()
-                ->scalarNode('file')->defaultValue('%kernel.root_dir%/../vendor/rockbee/rssbundle/rssphp/rss.php')->end()
+                ->scalarNode('file')->defaultValue('%kernel.root_dir%/../vendor/rockbee/rss-bundle/Rockbee/RssBundle/rssphp/rss_php.php')->end()
             ->end()
         ;
 
